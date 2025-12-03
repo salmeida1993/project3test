@@ -27,16 +27,13 @@ export default function USMap({ visitedStates = [] }) {
 
   // Define fill color expression for Mapbox
   const fillColor = [
-  "match",
-  ["get", "NAME"],
-  ...(
-    visitedStateNames.length > 0
+    "match",
+    ["get", "NAME"],
+    ...(visitedStateNames.length > 0
       ? visitedStateNames.flatMap((name) => [name, "#3CB043"])
-      : ["__none__", "#E0E0E0"]  // dummy pair so expression is never invalid
-  ),
-  "#E0E0E0", // default color
-];
-
+      : ["__none__", "#E0E0E0"]), // dummy pair so expression is never invalid
+    "#E0E0E0", // default color
+  ];
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -80,7 +77,9 @@ export default function USMap({ visitedStates = [] }) {
     map.current.setPaintProperty("state-fills", "fill-color", [
       "match",
       ["get", "NAME"],
-      ...visitedStateNames.flatMap((name) => [name, "#3CB043"]),
+      ...(visitedStateNames.length > 0
+        ? visitedStateNames.flatMap((name) => [name, "#3CB043"])
+        : ["__none__", "#E0E0E0"]), // dummy pair so expression is never invalid
       "#E0E0E0",
     ]);
   }, [visitedStateNames, mapLoaded]);
