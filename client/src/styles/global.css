@@ -1,0 +1,253 @@
+/* =========================
+   Global Variables
+========================= */
+:root {
+  --gap: 12px;
+  --pad: 16px;
+  --radius: 12px;
+
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #60a5fa;
+  --danger: #ef4444;
+}
+
+/* =========================
+   Reset + Base
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.45;
+}
+
+/* =========================
+   Links
+========================= */
+a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Layout
+========================= */
+header,
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--pad);
+}
+
+nav a {
+  margin-right: 12px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--pad);
+}
+
+/* =========================
+   UI Elements
+========================= */
+button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+}
+button:hover {
+  opacity: 0.8;
+}
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: var(--text);
+}
+
+.form,
+.card {
+  display: grid;
+  gap: var(--gap);
+  padding: var(--pad);
+  background: var(--card);
+  border-radius: var(--radius);
+  color: var(--text);
+}
+
+.help {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.error {
+  color: var(--danger);
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.accordion-card {
+  background: rgb(6, 154, 199);
+  color: black;
+  text-align: center;
+}
+.state-hero {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border, #2b3142);
+}
+
+/* ---- Home ---- */
+.home {
+  display: grid;
+  gap: 2rem;
+}
+
+/* Hero */
+.home-hero {
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  background:
+    radial-gradient(1200px 400px at -10% -20%, rgba(255,255,255,0.06), transparent 60%),
+    radial-gradient(900px 300px at 120% 0%, rgba(255,255,255,0.06), transparent 60%),
+    linear-gradient(135deg, rgba(80,180,255,0.18), rgba(150,120,255,0.12));
+  border: 1px solid var(--border, #2b3142);
+}
+
+.home-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0 0 .5rem 0;
+  color: var(--text, #eaf0ff);
+  letter-spacing: .3px;
+}
+
+.home-subtitle {
+  max-width: 60ch;
+  line-height: 1.6;
+  opacity: .9;
+  margin: 0 0 1.5rem 0;
+}
+
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .75rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--border, #2b3142);
+  background: var(--card, #121a24);
+  color: var(--text, #eaf0ff);
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-lg { padding: .9rem 1.15rem; }
+.btn.primary {
+  background: linear-gradient(135deg, #5aa8ff, #7a6bff);
+  border-color: transparent;
+  color: white;
+}
+
+/* Features grid */
+.home-features {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.feature-card {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--border, #2b3142);
+  background: var(--card, #0f1621);
+}
+.feature-card h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.1rem;
+}
+
+/* Tip strip */
+.home-tip {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .8rem 1rem;
+  border: 1px dashed var(--border, #2b3142);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+}
+.tip-badge {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .6px;
+  padding: .25rem .5rem;
+  border-radius: 999px;
+  background: rgba(122,107,255,.2);
+  border: 1px solid rgba(122,107,255,.4);
+}
+
+/* =========================
+   Trip Stats Card
+========================= */
+.stats-card {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stats-card-states {
+  color: #17d410;
+}
+
+.btn-add-trip {
+  background-color: #28a745;
+  border-color: #28a745;
+}

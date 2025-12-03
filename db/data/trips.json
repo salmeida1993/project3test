@@ -1,0 +1,24 @@
+{
+  "_id": "1a",
+  "userId": "2b",
+  "title": "Summer 2025 Road Trip",
+  "description": "A cross-country road trip visiting national parks and major cities.",
+  "startDate": "2025-06-15",
+  "endDate": "2025-07-15",
+  "legs": [
+    { "_id": "3c", "state": "TX", "city": "Austin", "days": 2, "latitude": 30.2672, "longitude": -97.7431, "createdAt": "2024-06-01T12:00:00Z", "updatedAt": "2024-06-01T12:00:00Z" },
+    { "_id": "3d", "state": "NM", "city": "Santa Fe", "days": 2, "latitude": 35.6870, "longitude": -105.9378, "createdAt": "2024-06-01T12:00:00Z", "updatedAt": "2024-06-01T12:00:00Z" },
+    { "_id": "3e", "state": "AZ", "city": "Grand Canyon", "days": 3, "latitude": 36.1069, "longitude": -112.1129, "createdAt": "2024-06-01T12:00:00Z", "updatedAt": "2024-06-01T12:00:00Z" },
+    { "_id": "3f", "state": "CA", "city": "Los Angeles", "days": 4, "latitude": 34.0522, "longitude": -118.2437, "createdAt": "2024-06-01T12:00:00Z", "updatedAt": "2024-06-01T12:00:00Z" }
+  ],
+  "expenses": {
+    "transportation": 3000,
+    "food": 1500,
+    "lodging": 2000,
+    "extra": 500
+  },
+  "notes": "Avoid the chili in New Mexico, it's too spicy!",
+  "createdAt": "2024-06-01T12:00:00Z",
+  "updatedAt": "2024-06-01T12:00:00Z"
+}
+

@@ -1,0 +1,359 @@
+[
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "capital": "Montgomery",
+    "region": "South",
+    "nickname": "Yellowhammer State"
+  },
+  {
+    "code": "AK",
+    "name": "Alaska",
+    "capital": "Juneau",
+    "region": "West",
+    "nickname": "The Last Frontier"
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "capital": "Phoenix",
+    "region": "West",
+    "nickname": "Grand Canyon State"
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "capital": "Little Rock",
+    "region": "South",
+    "nickname": "Natural State"
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "capital": "Sacramento",
+    "region": "West",
+    "nickname": "Golden State"
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "capital": "Denver",
+    "region": "West",
+    "nickname": "Centennial State"
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "capital": "Hartford",
+    "region": "Northeast",
+    "nickname": "Constitution State"
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "capital": "Dover",
+    "region": "South",
+    "nickname": "First State"
+  },
+  {
+    "code": "DC",
+    "name": "District of Columbia",
+    "capital": "Washington",
+    "region": "South",
+    "nickname": "—"
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "capital": "Tallahassee",
+    "region": "South",
+    "nickname": "Sunshine State"
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "capital": "Atlanta",
+    "region": "South",
+    "nickname": "Peach State"
+  },
+  {
+    "code": "HI",
+    "name": "Hawaii",
+    "capital": "Honolulu",
+    "region": "West",
+    "nickname": "Aloha State"
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "capital": "Boise",
+    "region": "West",
+    "nickname": "Gem State"
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "capital": "Springfield",
+    "region": "Midwest",
+    "nickname": "Prairie State"
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "capital": "Indianapolis",
+    "region": "Midwest",
+    "nickname": "Hoosier State"
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "capital": "Des Moines",
+    "region": "Midwest",
+    "nickname": "Hawkeye State"
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "capital": "Topeka",
+    "region": "Midwest",
+    "nickname": "Sunflower State"
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "capital": "Frankfort",
+    "region": "South",
+    "nickname": "Bluegrass State"
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "capital": "Baton Rouge",
+    "region": "South",
+    "nickname": "Pelican State"
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "capital": "Augusta",
+    "region": "Northeast",
+    "nickname": "Pine Tree State"
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "capital": "Annapolis",
+    "region": "South",
+    "nickname": "Old Line State"
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "capital": "Boston",
+    "region": "Northeast",
+    "nickname": "Bay State"
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "capital": "Lansing",
+    "region": "Midwest",
+    "nickname": "Great Lakes State"
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "capital": "Saint Paul",
+    "region": "Midwest",
+    "nickname": "North Star State"
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "capital": "Jackson",
+    "region": "South",
+    "nickname": "Magnolia State"
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "capital": "Jefferson City",
+    "region": "Midwest",
+    "nickname": "Show-Me State"
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "capital": "Helena",
+    "region": "West",
+    "nickname": "Treasure State"
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "capital": "Lincoln",
+    "region": "Midwest",
+    "nickname": "Cornhusker State"
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "capital": "Carson City",
+    "region": "West",
+    "nickname": "Silver State"
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "capital": "Concord",
+    "region": "Northeast",
+    "nickname": "Granite State"
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "capital": "Trenton",
+    "region": "Northeast",
+    "nickname": "Garden State"
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "capital": "Santa Fe",
+    "region": "West",
+    "nickname": "Land of Enchantment"
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "capital": "Albany",
+    "region": "Northeast",
+    "nickname": "Empire State"
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "capital": "Raleigh",
+    "region": "South",
+    "nickname": "Tar Heel State"
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "capital": "Bismarck",
+    "region": "Midwest",
+    "nickname": "Peace Garden State"
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "capital": "Columbus",
+    "region": "Midwest",
+    "nickname": "Buckeye State"
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "region": "South",
+    "nickname": "Sooner State"
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "capital": "Salem",
+    "region": "West",
+    "nickname": "Beaver State"
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "region": "Northeast",
+    "nickname": "Keystone State"
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "capital": "Providence",
+    "region": "Northeast",
+    "nickname": "Ocean State"
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "capital": "Columbia",
+    "region": "South",
+    "nickname": "Palmetto State"
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "capital": "Pierre",
+    "region": "Midwest",
+    "nickname": "Mount Rushmore State"
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "capital": "Nashville",
+    "region": "South",
+    "nickname": "Volunteer State"
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "capital": "Austin",
+    "region": "South",
+    "nickname": "Lone Star State"
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "capital": "Salt Lake City",
+    "region": "West",
+    "nickname": "Beehive State"
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "capital": "Montpelier",
+    "region": "Northeast",
+    "nickname": "Green Mountain State"
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "capital": "Richmond",
+    "region": "South",
+    "nickname": "Old Dominion"
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "capital": "Olympia",
+    "region": "West",
+    "nickname": "Evergreen State"
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "capital": "Charleston",
+    "region": "South",
+    "nickname": "Mountain State"
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "capital": "Madison",
+    "region": "Midwest",
+    "nickname": "Badger State"
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "capital": "Cheyenne",
+    "region": "West",
+    "nickname": "Equality State"
+  }
+]
